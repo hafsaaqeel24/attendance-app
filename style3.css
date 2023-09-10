@@ -1,0 +1,92 @@
+/* Reset some default styles and set a basic font size */
+body, h1, h2, p, label {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Apply a background color to the body and set text color */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container horizontally */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+/* Style labels and form elements */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style the student details section */
+#studentDetails {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#studentDetails h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the status dropdown */
+#statusSelect {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the Mark Attendance button */
+#markAttendanceBtn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select {
+        padding: 8px;
+    }
+}
+

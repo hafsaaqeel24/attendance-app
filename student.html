@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Attendance Portal</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Attendance Portal</h1>
+        
+        <!-- Class Selection Dropdown -->
+        <label for="classSelect">Select Class:</label>
+        <select id="classSelect">
+            <option value="class1">Miss Hina</option>
+            <option value="class2">Miss Iqra</option>
+            <!-- Add more class options -->
+        </select>
+        
+        <!-- Roll Number Input -->
+        <label for="rollNumberInput">Enter Roll Number:</label>
+        <input type="text" id="rollNumberInput" placeholder="Enter roll number">
+        
+        <!-- Student Details Display -->
+        <!-- <div id="studentDetails">
+            <h2>Student Details</h2>
+            <p><strong>Name:</strong> <span id="studentName"></span></p>
+            <p><strong>Father's Name:</strong> <span id="fatherName"></span></p>
+            <p><strong>Contact Number:</strong> <span id="contactNumber"></span></p> -->
+            <!-- Add more student details here -->
+        <!-- </div> -->
+        
+        <!-- Attendance Status Dropdown -->
+        <label for="statusSelect">Select Status:</label>
+        <select id="statusSelect">
+            <option value="Present">Present</option>
+            <option value="Absent">Absent</option>
+            <option value="Late">Late</option>
+            <option value="Leave">Leave</option>
+        </select>
+        
+        <!-- Password Verification (for status changes) -->
+        <!-- <label for="adminPassword">Admin Password:</label>
+        <input type="password" id="adminPassword" placeholder="Enter admin password"> -->
+        
+        <!-- Mark Attendance Button -->
+        <button id="markAttendanceBtn">Mark Attendance</button>
+    </div>
+    
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./logic.js"></script>
+</body>
+</html>

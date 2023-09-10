@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Attendance Portal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Attendance Portal</h1>
+            <div class="tabs">
+                <button class="tab-btn" id="adminTab">Admin</button>
+                <button class="tab-btn" id="studentTab">Student</button>
+            </div>
+            <div id="adminForm" class="form">
+                <h2>Admin Login/Signup</h2>
+                <input type="text" id="adminUsername" placeholder="Username">
+                <input type="email" id="adminEmail" placeholder="Email">
+                <input type="password" id="adminPassword" placeholder="Password">
+                <button id="adminLogin">Login</button>
+                <button id="adminSignUp">Sign Up</button>
+            </div>
+            <div id="studentForm" class="form">
+                <h2>Student Login/Signup</h2>
+                <input type="text" id="studentName" placeholder="Student Name">
+                <input type="text" id="studentRollNumber" placeholder="Roll Number">
+                <input type="email" id="studentEmail" placeholder="Email">
+                <input type="password" id="studentPassword" placeholder="Password">
+                <button id="studentLogin">Login</button>
+                <button id="studentSignUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./logic.js"></script>
+</body>
+</html>
+

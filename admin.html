@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Admin Portal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Admin Portal</h1>
+            <button id="classDetailsBtn">Manage Class Details</button>
+            <button id="studentDetailsBtn">Manage Student Details</button>
+            <!-- <button id="attendanceBtn">Attendance</button> -->
+            
+
+            <div id="classDetailsForm" class="form">
+                <h2>Class Details</h2>
+                <input type="text" id="classTimings" placeholder="Class Timings">
+                <input type="text" id="schedule" placeholder="Schedule">
+                <input type="text" id="teacherName" placeholder="Teacher's Name">
+                <input type="text" id="sectionName" placeholder="Section Name">
+                <input type="text" id="courseName" placeholder="Course Name">
+                <input type="text" id="batchNumber" placeholder="Batch Number">
+                <button id="addClass">Add Class</button>
+                <button id="selectClass">Select Class</button>
+                <button id="updateClass">Update Class</button>
+                <button id="deleteClass">Delete Class</button>
+            </div>
+
+            <div id="studentDetailsForm" class="form">
+                <h2>Student Details</h2>
+                <input type="text" id="studentName" placeholder="Name">
+                <input type="text" id="fatherName" placeholder="Father's Name">
+                <input type="text" id="rollNumber" placeholder="Roll Number">
+                <input type="text" id="contactNumber" placeholder="Contact Number">
+                <input type="text" id="cnicNumber" placeholder="CNIC Number">
+                <input type="text" id="studentCourse" placeholder="Course Name">
+                <input type="text" id="classTeacher" placeholder="Class Teacher">
+
+                <!-- <select id="assignClass"> -->
+                   
+                    <!-- Populate with available classes -->
+                <!-- </select> -->
+                <button id="addStudent">Add Student</button>
+                <button id="selectStudent">Select Student</button>
+                <button id="updateStudent">Update Student</button>
+                <button id="deleteStudent">Delete Student</button>
+            </div>
+            <button id="logout"><a href="http://127.0.0.1:5500/portal.html">Logout</a></button>
+          
+            </div>
+        </div>
+        
+    </div>
+ 
+  
+   
+
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./logic.js"></script>
+</body>
+</html>
